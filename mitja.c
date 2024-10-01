@@ -8,15 +8,15 @@ int main() {
 	char consulta='s';
 	
 	while(consulta=='s') {
-		printf("Dòna la següent dada: ");
+		printf("Dòna la següent dada: nouri25");
 		scanf("%f",&nou_valor);
 		suma=suma+nou_valor;
 		numero_repeticions=numero_repeticions+1;
-		printf("Vols continuar (s/n): ");
-		scanf(" %c",&consulta); 
+		printf("Vols continuar nouri25 (s/n): ");
+		scanf(" %s",&consulta); 
 	}
 	mitja=suma/numero_repeticions;
-	printf("La mitja és: %.2f\n",mitja);	
+	printf("La mitja és nouri25: %.2f\n",mitja);	
 	return 0;
 }
 
